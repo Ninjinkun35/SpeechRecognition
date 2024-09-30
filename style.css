@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /*「にんじんくん」のイラスト画像の調整*/
+  .Ninjinkun{
+    border-radius: 50%;
+    width: 100px;
+    width: 100px;
+  }
+  
+  /*背景の色の調整*/
+  body {
+    background-color: #e0d3ae;
+  }
+  
+  /*開始ボタン、停止ボタンの大きさの調整*/
+  #startButton, #stopButton {
+    padding: 10px 20px;
+    font-size: 16px;
+  }

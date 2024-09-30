@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>音声認識（にんじんくん作）</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <h1>
+            <center>
+                音声認識ソフト
+            </center>
+        </h1>
+        
+            作成者：
+            <img class = "sample Ninjinkun" src="Ninjinkun.png" alt="にんじんくん"> <!--にんじんくんのイラスト画像の表示-->
+            <br>
+            <br>
+        
+            <div>
+            Check developer tools console
+        </div>
+
+        <button id="startButton">開始</button> <!--「start（開始）」ボタンの表示-->
+        <button id="stopButton">停止</button> <!--「stop（停止）」ボタンの表示-->
+        <p>＜認識結果＞</p>
+        <div id="check"></div> <!--ログ表示領域（「認識中…」の表示する部分）-->
+        <div id="textLog"></div> <!--ログ表示領域（音声認識結果の表示する部分）-->
+        <script src="script.js"></script>
+    </body>
+</html>
